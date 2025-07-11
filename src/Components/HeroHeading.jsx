@@ -15,7 +15,35 @@ const HeroHeading = () => {
       </div>
 
       {/* Full-Width Image Below Text */}
-      <div className="relative mt-16 w-full ">
+
+      <div className="relative mt-16 w-full">
+  {/* Image for small devices only (sm and below) */}
+  <img
+    src="/hero2.jpg"
+    alt="Hero Visual Small"
+    fetchpriority="high"
+    className="object-contain w-full h-auto block md:hidden"
+  />
+
+  {/* Current image for md and above */}
+  <img
+    src="/hero-image.png"
+    alt="Hero Visual"
+    fetchpriority="high"
+    className="object-contain w-full h-auto hidden md:block"
+  />
+
+  {/* CTA image stays same, visible on all sizes or adjust as needed */}
+  <img
+    src="./cta.svg"
+    alt="Get in touch"
+    className="absolute -top-10 left-[35%] translate-x-1/2 xl:left-28 lg:left-[44%] md:left-[42%] w-20 sm:w-24 md:w-28 lg:w-32 xl:w-36 z-50"
+  />
+</div>
+
+
+
+      {/* <div className="relative mt-16 w-full ">
         <img
           src="/hero-image.png"
           alt="Hero Visual"
@@ -29,7 +57,7 @@ const HeroHeading = () => {
             
 
         />
-      </div>
+      </div> */}
     </div>
     
   );

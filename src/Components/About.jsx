@@ -2,12 +2,12 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full min-h-screen bg-[#F5F5F5] text-black  pb-12 pt-20 flex flex-col items-center "
+      className="w-full min-h-screen bg-[#F5F5F5] text-black  pb-10 pt-20 flex flex-col items-center "
     >
       {/* Container for Text + Image side-by-side */}
-      <div className="flex flex-col md:flex-row items-start justify-between max-w-6xl w-full px-4 gap-15">
+      <div className="flex flex-col md:flex-row  items-start justify-between max-w-6xl w-full px-4 p-5 gap-15 ">
         {/* Left: Text */}
-        <div className="w-full md:w-1/2 self-center max-w-2xl pt-10">
+        <div className="w-full md:w-1/2 self-center max-w-2xl pt-10 ">
           <div className="text-lg font-semibold text-gray-500 mb-2">About us</div>
           <h1 className="text-4xl md:text-6xl font-semibold mb-4 font-playfair">
             Sophistication meets soul in every square foot.
@@ -26,7 +26,7 @@ const About = () => {
         </div>
 
         {/* Right: Image */}
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 md: pt-[25%]">
           <img
             src="/about.jpg"
             alt="About section visual"
