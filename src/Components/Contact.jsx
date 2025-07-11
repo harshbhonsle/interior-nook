@@ -21,7 +21,7 @@ const Contact = ()=>{
         <p>
           Email:{" "}
           <a href="mailto:hello@landify.design" className="text-purple-700 hover:underline">
-            hello@landify.design
+            hello@design
           </a>
         </p>
         <p>
