@@ -15,10 +15,10 @@ const Nav = () => {
   };
 
   return (
-    <nav className="bg-purple-700 ">
+    <nav className="bg-purple-700">
       <div className="h-20 items-center flex justify-between mx-auto w-full px-4 ">
         {/* logo */}
-        <div className="text-5xl text-white font-roboto font-bold px-2  ml-20">Design Nook</div>
+        <div className="text-5xl text-white font-roboto font-bold px-2  ">Design Nook</div>
 
         {/* desktop links */}
         <ul className="hidden sm:flex w-1/2  font-roboto justify-evenly  items-center p-2 px-5 text-xl">

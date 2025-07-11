@@ -19,6 +19,7 @@ const HeroHeading = () => {
         <img
           src="/hero-image.png"
           alt="Hero Visual"
+          fetchpriority="high"
           className="object-contain w-full h-auto "
         />
         <img
